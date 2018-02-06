@@ -1,0 +1,60 @@
+#family {
+    text-align: center;
+    color: #844444;
+    padding: 0px;
+    height: 100vh;
+}
+
+#family-section-content {
+    height: auto;
+}
+
+#background-family {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.family-pillar-left {
+    position: absolute;
+    bottom: 0px;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+}
+
+.family-pillar-right {
+    position: absolute;
+    bottom: 0px;
+    top: 0px;
+    height: 100%;
+    right: 0px;
+}
+
+.family-text {
+    color: #844444;
+    font-family: cinzel-Regular;
+    margin: 5px 0px;
+    font-size: 10px;
+}
+
+.title {
+    font-family: cinzel-Bold;
+}
+
+.add-margin {
+    margin-top: 20px !important;
+}
+
+.gifttext {
+    font-size: 10px;
+}
+
+@media (max-width: 320px) {
+    .gifttext {
+        font-size: 9px !important;
+    }
+}

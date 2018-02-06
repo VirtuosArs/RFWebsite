@@ -1,0 +1,300 @@
+#background-rsvp {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+#x {
+    position: relative;
+    height: 300px;
+    width: 300px;
+}
+
+#rsvp-envelope-back {
+    width: 322px;
+    z-index: 0;
+    left: 0;
+    bottom: 7%;
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+#rsvp-envelope-front {
+    width: 322px;
+    /* margin-top: -220px; */
+    z-index: 2;
+    left: 0;
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    bottom: 7%;
+}
+
+#letter {
+    width: 300px;
+    /* height: 70vh; */
+    /* margin-left: auto; */
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    bottom: 16%;
+    /* margin-right: auto; */
+    /* margin-top: 20vh; */
+    /* background: linear-gradient(#fad0c9, #f08d80);  */
+    /* background: linear-gradient(#ffffff, rgb(252, 255, 255), #fffffe7e); */
+    /* background: #E9B1AD; */
+    background: linear-gradient(#ffffff, #E9B1AD);
+    height: 80%;
+    padding: 15px;
+    font-size: 12px;
+    text-align: center;
+    z-index: 1;
+
+}
+
+#contact-info {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    font-size: 9px;
+    font-family: montserrat-medium;
+    bottom: 9%;
+    z-index: 100;
+    color: #844444;
+}
+
+#top-text {
+    margin-top: 15px;
+    font-family: cinzel-Bold;
+    font-size: 12px;
+    color: #844444;
+}
+
+#name-div {
+    color: #844444;
+}
+
+#text-below-name-div {
+    color: #844444;
+}
+
+
+#date-time-travel {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#date-time-travel div {
+    display: inline;
+    /* float: left; */
+}
+
+#date-time-travel select {
+    display: inline;
+    /* float: left; */
+}
+
+.timepicker {
+    width: auto;
+    padding: 0 10px;
+}
+
+#count-me-in {
+    background-image: url("/pngs/Evite_Button.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    padding: 17px;
+    color: #844444;
+    font-size: 12px;
+    z-index: 207;
+    cursor: pointer;    
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: absolute; /* Stay in place */
+    z-index: 203; /* Sit on top */
+    left: 0;
+    bottom: 0;
+    border: none;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    /* background-color: #ba5462 !important; */
+    /* background: linear-gradient(#b6505f, #bb5260, #ca5862, #e66365,#e86365) !important; */
+    background: linear-gradient(#ffffff, #E9B1AD);
+    margin: 45% auto; /* 15% from the top and centered */
+    padding: 20px;
+    /* border: 1px solid #ba5462; */
+    width: 80%; /* Could be more or less, depending on screen size */
+    color: #844444;
+    font-family: cinzel-Bold;
+    font-size: 14px;
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+
+/* The Close Button */
+.close {
+    color: #844444;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.closeimg {
+    float: inherit;
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animateend;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top: -300px; opacity: 0} 
+    to {top: 0; opacity: 1}
+}
+
+@keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
+
+/* Add Animation */
+@-webkit-keyframes animateend {
+    from {bottom: 0; opacity: 1}
+    to {bottom: -300px; opacity: 0}
+}
+
+@keyframes animateend {
+    from {bottom: 0; opacity: 1}
+    to {bottom: -300px; opacity: 0}
+}
+
+
+#name-div input ,
+#adate,
+#means-of-transport,
+#atime,
+#ddate,
+#dtime,
+#means-of-transportd,
+#number-div input ,
+#mobilenumber-div input
+{
+    font-size: 16px ! important;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid;
+}
+
+/* #atime,
+#dtime,{
+    float: left;
+}     */
+
+#name-div input {
+    width: 70%;
+}
+
+#number-div input ,
+#mobilenumber-div input {
+    width: 44%;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #844444;
+      /* font-size: 12px; */
+      font-weight: 500;
+      text-transform: uppercase;
+      font-family: cinzel-Regular;
+}
+
+.browser-default,
+.browser-default option,
+.timepicker {
+    color: #844444;
+    /* font-size: 12px !important; */
+    font-weight: 500;
+    /* font-family: cinzel-Regular; */
+    text-transform: none;
+}
+
+
+@media (max-width: 320px) {
+    #letter{
+        bottom: 16% !important;
+        width: 270px
+    }
+    #top-text {
+        font-size: 10px;
+    }
+    .rsvp-text {
+        font-size: 12px;
+    }
+    .family-text {
+        font-size: 10px;
+    }    
+}
+
+#name-div,
+ {
+    margin: 20px 0 0 0;
+    width: 100%;
+}
+
+.rsvp-text {
+    top: 20%;
+    font-family: cinzel-Regular;
+    text-transform: none !important;
+    margin-top: 1rem;
+} 
+
+#rsvp {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 45%;
+}
+
+.brr {
+    right: 0 !important;
+    transform: rotate(180deg) !important;
+    left: unset !important;
+}
+
+.brl {
+    left: 0 !important;
+    transform: rotate(180deg) !important;
+}
+
+select {
+    font-family: cinzel-Regular;
+    font-weight: bold;
+}
+
+.timepicker {
+    font-family: cinzel-Regular;
+}

@@ -1,0 +1,248 @@
+body {
+    /* background-image: linear-gradient(#ba5462, #f7a691);
+    background-image: -webkit-linear-gradient(#ba5462, #f7a691);
+    background-image: -moz-linear-gradient(#ba5462, #f7a691);
+    background-image: -o-linear-gradient(#ba5462, #f7a691); */
+    /* background-position: right top; */
+    /* background-repeat: no-repeat; */
+    /* background-size: contain; */
+    background-size: cover;
+    background-image: url('../imgs/bg.jpg');
+    background-repeat: repeat-y;
+    color: #844444;
+    /* background: #fff; */
+}
+
+.section {
+    background-color: transparent;
+    text-align: center;
+    /* border: 2px solid yellow; */
+}
+
+.section-content {
+    height: 100%;
+    width: 100%;
+}
+
+.scroll-up-1 {
+    position: absolute;
+    margin: 0;
+    top: 0px;
+}
+
+.scroll-up {
+    position: absolute;
+    bottom: 0px;
+    margin: 0;
+    width: 100%;
+    padding: 5px;
+    font-family: blacksword;
+    color: #844444;
+    font-size: 16px;
+}
+
+#load {
+    /* position: fixed; */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* top: 36vh; */
+    /* left: 35vw;
+    right: 35vw; */
+    margin: 0 auto;
+    text-align: center;
+    z-index: 10000000;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    /* For IE8 and earlier */23.5%
+}
+
+#toggle-music {
+    background: url('/imgs/button-language.png');
+    width: 100px;
+    padding: 10px;
+    color: #fbd2cb;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+    text-align: center;
+    top: 5px;
+    height: 49px;
+    padding-top: 13px;
+    padding-left: 20px;
+    right: 0px;
+    z-index: 1000;
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidenav */
+    cursor: pointer;
+}
+
+.pausec {
+    width: 43%;
+    margin-top: -5px;
+}
+
+.playc {
+    width: 36%;
+    margin-top: -5px;
+}
+
+#play {
+    display: none;
+}
+
+
+/* #pause {
+    display: none;
+} */
+
+#preloader {
+    /* width: 100px;
+    margin-top: 75%;
+    z-index: 999; */
+
+    position: fixed;
+    /* left: 30%;
+    top: 30%;
+    z-index: 999;
+    width: 40%;
+    height: 40%;
+    overflow: visible; */
+
+
+    left: 32.75%;
+    top: 38.25%;
+    z-index: 999;
+    width: 34.5%;
+    height: 23.5%;
+}
+
+/* div#preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    background: #333 url('../imgs/preloader.gif') no-repeat center center;
+} */
+
+@media only screen and (min-width: 769px) {
+    #mainbody {
+        margin: 0 auto;
+        max-width: 500px;
+    }
+    #load {
+        margin: 0 auto;
+        max-width: 500px;
+    }
+    #division {
+        width: 460px;
+    }
+    #letter {
+        height: 70% !important;
+    }
+    #preloader {
+        left: 45%;
+        width: unset;
+    }
+}
+
+.separator {
+    position: absolute;
+    bottom: -20px;
+    left: 11.7rem;
+    margin: 0;
+    width: 36vw;
+    padding: 5px;
+}
+
+.sepimg {
+    width: 36vw !important;
+}
+
+@media (min-width: 1800px) {
+    .separator {
+        bottom: -27px;
+        left: 13.7rem;
+        width: auto;
+        padding: 5px;
+        }
+        .sepimg {
+            width: 12vw !important;
+        }
+}
+
+
+@media (max-width: 1440px) and (max-height: 900px) {
+    .separator {
+    bottom: -29px;
+    left: 12.7rem;
+    width: auto;
+    padding: 5px;
+    }
+    .sepimg {
+        width: 16vw !important;
+    }
+} 
+
+@media (max-width: 1366px) and (max-height: 1024px) {
+    .separator {
+    bottom: -29px;
+    left: 12.7rem;
+    width: auto;
+    padding: 5px;
+    }
+    .sepimg {
+        width: 16vw !important;
+    }
+} 
+
+
+@media (max-width: 1280px) and (max-height: 800px) {
+    .separator {
+        bottom: -27px;
+        left: 13.7rem;
+    }
+}
+
+@media (max-width: 768px) and (max-height: 1024px) {
+    .separator {
+        bottom: -25px;
+    }
+    .sepimg {
+        width: 26vw !important;
+    }
+}
+
+@media (max-width: 414px) {
+    .separator {
+        position: absolute;
+        bottom: -20px;
+        left: 12.7rem;
+        margin: 0;
+        width: 36vw;
+        padding: 5px;
+    }
+    
+    .sepimg {
+        width: 36vw !important;
+    }
+    /* .separator {
+        left: 12.7rem;
+    } */
+}
+
+@media (max-width: 375px) {
+    .separator {
+        left: 11.2rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .separator {
+        left: 9.7rem;
+    }
+}

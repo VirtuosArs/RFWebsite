@@ -1,0 +1,166 @@
+#open-nav {
+    background: url('/imgs/button-nav.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100px !important;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    top: 5px;
+    left: 0px;
+    height: 49px;
+    color: #fbd2cb;
+    z-index: 1001;
+    width: 50px;
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    cursor: pointer;
+}
+
+#open-nav i {
+    padding-right: 15px;
+}
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1002; /* Stay on top */
+    top: 0;
+    left: 0;
+    background: linear-gradient(#b6505f, #bb5260, #ca5862, #e66365,#e86365); /* Standard syntax */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    min-width: 50vw;
+    padding: 0vh 10vw;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: container-font;
+    color: #f69481;
+    display: block;
+    transition: 0.3s;
+    margin-top: -12px;
+}
+
+.sidenav li {
+    min-width: 50vw;
+    padding: 0vh 10vw;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: container-font;
+    color: #f69481;
+    display: block;
+    transition: 0.3s;
+    padding-left: 72px;
+    margin-top: -15px;
+    cursor: pointer;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #fbd2cb;
+}
+
+.sidenav li:hover, .offcanvas li:focus{
+    color: #fbd2cb;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+
+/* .s1 {
+    height: 117px;
+    padding-bottom: -53px;
+    padding-top: 52px;
+    transform: rotate(180deg);
+} */
+
+.s1 {
+    height: 97px;
+    padding-top: 22px;
+    padding-right: 2px;
+    transform: rotate(180deg);
+    margin-right: 2px;
+    margin-top: 18px;
+}
+
+.sec {
+    margin-top: -20px;
+}
+
+/* .s2 {
+    height: 117px;
+    padding-bottom: -53px;
+    padding-top: 52px;
+} */
+
+.s2 {
+    height: 143px;
+    padding-top: 25px;
+    padding-right: 2px;
+    margin-top: -26px;
+}
+
+.s3 {
+    height: 115px;
+    padding-bottom: 2px;
+    margin-top: 0;
+}
+
+.navigation-hindi {
+    font-family: kadwa-regular !important;
+    font-size: 17px !important;    
+}
+
+#download-invitation {
+    background-image: url("/pngs/download.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 8px;
+    text-align: center;
+    color: #844444;
+    font-size: 12px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+@media (max-width: 375px) {
+    .sidenav li{
+        padding-left: 36px !important;
+        margin-top: -38px !important;
+    }
+}
+
+
+/* @media (min-width: 768px) {
+    #mySidenav{
+        width: 36vw;
+    }
+    #open-nav{
+        left: 36vw;
+    }
+} */

@@ -1,0 +1,109 @@
+.prologue-text {
+    transition: opacity 0.8s;
+    position: absolute;
+    top: 52%;
+    bottom: 5%;
+    padding: 0 15vw;
+    font-family: cinzel-Regular;
+    color: #844444;
+    font-size: 13px;
+    width: 100%;
+}
+
+#logo-div {
+    transition: opacity 0.5s;
+    position: fixed;
+    top: 22%;
+    text-align: center;
+    width: 100%;
+    height: 20%;
+}
+
+
+/* .logo {
+    width: 40vw;
+    opacity: 0;
+    position: absolute;
+    left:30vw;
+    right: 30vw;
+} */
+
+
+/* .logo {
+    width: 75vw;
+    opacity: 0;
+    position: absolute;
+    left: 12.5vw;
+    right: 12.5vw;
+} */
+
+.logo {
+    width: 90vw;
+    opacity: 0;
+    position: absolute;
+    left: 5vw;
+    right: 5vw;
+    top: -4rem;
+}
+
+#background-prologue {
+    transition: opacity 0.5s;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    max-width: 500px;
+    top: 0px;
+}
+
+#branch-left {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    min-width: 50%;
+    max-width: 50%;
+    /* border: 2px solid red; */
+}
+
+/* #branch-left {
+    height: 100%;
+    vertical-align: top;
+    display: flex;
+    float: left;
+} */
+
+#branch-right {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    min-width: 50%;
+    max-width: 50%;
+    /* border: 2px solid red; */
+}
+
+/* #branch-right {
+    height: 100%;
+    vertical-align: top;
+    display: flex;
+    float: right;
+} */
+
+
+@media only screen and (min-width: 500px) {
+    .prologue-text {
+        padding: 0 100px;
+    }
+    #logo-div {
+        width: 500px;
+        height: 250px;
+    }
+    .logo {
+        width: 250px;
+        height: 250px;
+        left: 125px;
+        right: 125px;
+    }
+}

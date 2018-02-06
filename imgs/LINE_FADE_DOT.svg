@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="55px" height="307px" viewBox="0 0 55 307" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>LINE_FADE_DOT</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="2.04%" y1="-1.15454023%" x2="2.04%" y2="101.154368%" id="linearGradient-1">
+            <stop stop-color="#F79868" offset="0%"></stop>
+            <stop stop-color="#F79669" stop-opacity="0.469" offset="53.1%"></stop>
+            <stop stop-color="#F6926C" stop-opacity="0.2533" offset="74.67%"></stop>
+            <stop stop-color="#F58A70" stop-opacity="0.09544688" offset="90.46%"></stop>
+            <stop stop-color="#F48273" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="LINE_FADE_DOT">
+            <circle id="XMLID_3375_" fill="#F48273" fill-rule="nonzero" cx="30" cy="59" r="8"></circle>
+            <path d="M29,96 L29,270" id="XMLID_3407_" stroke="url(#linearGradient-1)" stroke-width="4" stroke-linecap="round"></path>
+        </g>
+    </g>
+</svg>

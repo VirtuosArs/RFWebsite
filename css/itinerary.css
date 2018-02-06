@@ -1,0 +1,154 @@
+#navigator,
+#navigator2 {
+    transition: opacity 1s;
+    opacity: 0;
+    position: absolute;
+    bottom: 60px;
+    width: 100%;
+    z-index: 10;
+}
+
+.itinerary-nav {
+    margin: 0 10px;
+}
+
+#cancel,
+#cancel2 {
+    width: 20px;
+}
+
+#prev,
+#prev2 {
+    height: 18px;
+    width: auto;
+}
+
+#next,
+#next2 {
+    height: 18px;
+    width: auto;
+}
+
+#background-itinerary {
+    transition: opacity 0.5s;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: -10;
+    opacity: 0;
+}
+
+#division {
+    width: 80vw;
+}
+
+#itinerary-date {
+    margin-bottom: 0px;
+    font-family: blacksword;
+    color: #844444;
+    font-size: 30px;
+    margin-top: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.itinerary-data {
+    margin-left: 15%;
+    margin-right: 15%;
+    align-content: left;
+}
+
+.itinerary-data-row {
+    font-family: cinzel-Regular;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.srow {
+    font-size: 9px;
+}
+
+.itinerary-data-row-data {
+    font-weight: bold;
+}
+
+.itinerary-data-row td {
+    color: #844444;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    vertical-align: top;
+    line-height: 14px;
+    /* border: 2px solid yellow; */
+}
+
+.event {
+    width: 50vw;
+    margin: 0px;
+    padding-right: 10px;
+    text-align: left;
+}
+
+.event span {
+    font-family: cinzel-Regular;
+}
+
+@media only screen and (max-width: 320px) {
+    #itinerary-date {
+        margin-top: 70px;
+    }
+    .itinerary-data-row td {
+        padding-bottom: 2px;
+        padding-top: 3px;
+        line-height: 15px;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    #division {
+        width: 300px;
+    }
+    #itinerary-date {
+        margin-top: 30%;
+    }
+    .itinerary-data-row {
+        font-size: 14px;
+    }
+    .srow {
+        font-size: 10px;
+    }
+    .itinerary-data-row td {
+        padding-bottom: 5px;
+        padding-top: 10px;
+        line-height: 25px;
+    }
+    #navigator {
+        bottom: 100px;
+    }
+}
+
+.timing-end {
+    text-align: left;
+}
+
+.eventdresscode {
+    text-align: center;
+}
+
+.timehead {
+    position: absolute;
+    left: 56rem;
+}
+
+@media (max-width: 320px) {
+    .timehead {
+        position: absolute;
+        left: 47rem;
+    }
+}
+
+
+.itinerary-data-row-head th {
+    font-weight: 500;
+}
